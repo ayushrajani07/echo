@@ -1,0 +1,37 @@
+2025-08-26 12:46:48,963 - __main__ - INFO - Enhanced Initialization Script v3.3.0 initialized
+2025-08-26 12:46:48,963 - __main__ - INFO - Project root: C:\Users\ASUS\Documents\DATA\POA
+2025-08-26 12:46:48,963 - __main__ - INFO - Log file: logs\setup\enhanced_setup_20250826_124648.log
+2025-08-26 12:46:53,281 - __main__ - INFO - Executing: docker --version
+2025-08-26 12:46:53,329 - __main__ - INFO - Command succeeded: docker --version
+2025-08-26 12:46:53,330 - __main__ - INFO - Executing: docker compose version
+2025-08-26 12:46:53,464 - __main__ - INFO - Command succeeded: docker compose version
+2025-08-26 12:46:53,464 - __main__ - INFO - Executing: docker-compose --version
+2025-08-26 12:46:53,528 - __main__ - INFO - Command succeeded: docker-compose --version
+2025-08-26 12:47:20,827 - __main__ - INFO - Executing: python -m pip install --upgrade pip
+2025-08-26 12:47:22,364 - __main__ - INFO - Command succeeded: python -m pip install --upgrade pip
+2025-08-26 12:47:54,324 - __main__ - INFO - Executing: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:47:54,445 - __main__ - INFO - Command succeeded: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:47:54,446 - __main__ - INFO - Executing: docker network ls --format '{{.Name}}'
+2025-08-26 12:47:54,511 - __main__ - INFO - Command succeeded: docker network ls --format '{{.Name}}'
+2025-08-26 12:47:54,511 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-grafana
+2025-08-26 12:47:54,571 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-grafana
+2025-08-26 12:47:54,571 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-prometheus
+2025-08-26 12:47:54,633 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-prometheus
+2025-08-26 12:47:54,633 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-redis
+2025-08-26 12:47:54,695 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-redis
+2025-08-26 12:47:54,696 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-influxdb
+2025-08-26 12:47:54,756 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-influxdb
+2025-08-26 12:47:54,756 - __main__ - INFO - Executing: docker network connect op-trading-network 'redis
+2025-08-26 12:47:54,815 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'redis
+2025-08-26 12:47:54,815 - __main__ - INFO - Executing: docker network connect op-trading-network 'code-grafana-1
+2025-08-26 12:47:54,875 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'code-grafana-1
+2025-08-26 12:47:54,876 - __main__ - INFO - Executing: docker network connect op-trading-network 'grafana
+2025-08-26 12:47:54,932 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'grafana
+2025-08-26 12:47:54,933 - __main__ - INFO - Executing: docker network connect op-trading-network 'influxdb2-local
+2025-08-26 12:47:54,992 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'influxdb2-local
+2025-08-26 12:47:54,992 - __main__ - INFO - Executing: docker network connect op-trading-network 'influxdb-v3
+2025-08-26 12:47:55,051 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'influxdb-v3
+2025-08-26 12:47:55,562 - __main__ - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-26 12:47:55,625 - __main__ - ERROR - Command failed: docker exec op-redis redis-cli ping
+2025-08-26 12:49:43,424 - __main__ - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-26 12:49:43,482 - __main__ - ERROR - Command failed: docker exec op-redis redis-cli ping

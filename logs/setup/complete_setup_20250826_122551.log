@@ -1,0 +1,31 @@
+2025-08-26 12:25:51,390 - __main__ - INFO - Complete Initialization Script v3.2.0 initialized
+2025-08-26 12:25:51,391 - __main__ - INFO - Project root: C:\Users\ASUS\Documents\DATA\POA
+2025-08-26 12:25:51,391 - __main__ - INFO - Log file: logs\setup\complete_setup_20250826_122551.log
+2025-08-26 12:26:06,849 - __main__ - INFO - Executing: python -m pip install --upgrade pip
+2025-08-26 12:26:08,258 - __main__ - INFO - Command succeeded: python -m pip install --upgrade pip
+2025-08-26 12:26:08,259 - __main__ - INFO - Executing: python -m pip install fastapi==0.104.1
+2025-08-26 12:26:09,559 - __main__ - INFO - Command succeeded: python -m pip install fastapi==0.104.1
+2025-08-26 12:26:09,560 - __main__ - INFO - Executing: python -m pip install uvicorn[standard]==0.24.0
+2025-08-26 12:26:10,827 - __main__ - INFO - Command succeeded: python -m pip install uvicorn[standard]==0.24.0
+2025-08-26 12:26:10,827 - __main__ - INFO - Executing: python -m pip install pydantic==2.5.0
+2025-08-26 12:26:19,101 - __main__ - ERROR - Command failed: python -m pip install pydantic==2.5.0
+2025-08-26 12:26:19,101 - __main__ - INFO - Executing: python -m pip install pandas==2.1.4
+2025-08-26 12:26:38,994 - __main__ - ERROR - Command failed: python -m pip install pandas==2.1.4
+2025-08-26 12:26:38,995 - __main__ - INFO - Executing: python -m pip install numpy==1.24.3
+2025-08-26 12:26:46,347 - __main__ - ERROR - Command failed: python -m pip install numpy==1.24.3
+2025-08-26 12:26:46,348 - __main__ - INFO - Executing: python -m pip install redis==5.0.1
+2025-08-26 12:26:47,623 - __main__ - INFO - Command succeeded: python -m pip install redis==5.0.1
+2025-08-26 12:26:47,623 - __main__ - INFO - Executing: python -m pip install influxdb-client==1.39.0
+2025-08-26 12:26:49,121 - __main__ - INFO - Command succeeded: python -m pip install influxdb-client==1.39.0
+2025-08-26 12:26:49,121 - __main__ - INFO - Executing: python -m pip install python-dotenv==1.0.0
+2025-08-26 12:26:50,500 - __main__ - INFO - Command succeeded: python -m pip install python-dotenv==1.0.0
+2025-08-26 12:26:50,500 - __main__ - INFO - Executing: python -m pip install requests==2.31.0
+2025-08-26 12:26:51,778 - __main__ - INFO - Command succeeded: python -m pip install requests==2.31.0
+2025-08-26 12:26:51,779 - __main__ - INFO - Executing: python -m pip install aiohttp==3.9.1
+2025-08-26 12:26:57,988 - __main__ - ERROR - Command failed: python -m pip install aiohttp==3.9.1
+2025-08-26 12:26:57,989 - __main__ - INFO - Executing: python -m pip install prometheus-client==0.19.0
+2025-08-26 12:26:59,404 - __main__ - INFO - Command succeeded: python -m pip install prometheus-client==0.19.0
+2025-08-26 12:26:59,404 - __main__ - INFO - Executing: python -m pip install psutil==5.9.6
+2025-08-26 12:27:00,734 - __main__ - INFO - Command succeeded: python -m pip install psutil==5.9.6
+2025-08-26 12:27:00,735 - __main__ - INFO - Executing: python -m pip install pytz==2023.3
+2025-08-26 12:27:01,975 - __main__ - INFO - Command succeeded: python -m pip install pytz==2023.3

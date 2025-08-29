@@ -1,0 +1,67 @@
+2025-08-26 12:14:03,124 - __main__ - INFO - Complete Initialization Script v3.2.0 initialized
+2025-08-26 12:14:03,124 - __main__ - INFO - Project root: C:\Users\ASUS\Documents\DATA\POA
+2025-08-26 12:14:03,124 - __main__ - INFO - Log file: logs\setup\complete_setup_20250826_121403.log
+2025-08-26 12:14:14,669 - __main__ - INFO - Executing: docker --version
+2025-08-26 12:14:14,720 - __main__ - INFO - Command succeeded: docker --version
+2025-08-26 12:14:14,721 - __main__ - INFO - Executing: docker compose version
+2025-08-26 12:14:14,852 - __main__ - INFO - Command succeeded: docker compose version
+2025-08-26 12:14:14,853 - __main__ - INFO - Executing: docker-compose --version
+2025-08-26 12:14:14,918 - __main__ - INFO - Command succeeded: docker-compose --version
+2025-08-26 12:14:32,196 - __main__ - INFO - Executing: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:14:32,306 - __main__ - INFO - Command succeeded: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:14:32,306 - __main__ - INFO - Executing: docker network ls --format '{{.Name}},{{.Driver}}'
+2025-08-26 12:14:32,366 - __main__ - INFO - Command succeeded: docker network ls --format '{{.Name}},{{.Driver}}'
+2025-08-26 12:14:32,367 - __main__ - INFO - Executing: docker network create op-trading-network
+2025-08-26 12:14:32,497 - __main__ - INFO - Command succeeded: docker network create op-trading-network
+2025-08-26 12:14:32,498 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:32,558 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:32,559 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-grafana
+2025-08-26 12:14:32,618 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-grafana
+2025-08-26 12:14:32,618 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:32,673 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:32,673 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-prometheus
+2025-08-26 12:14:32,732 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-prometheus
+2025-08-26 12:14:32,732 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:32,788 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:32,789 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-redis
+2025-08-26 12:14:32,847 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-redis
+2025-08-26 12:14:32,847 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:32,900 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:32,900 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-influxdb
+2025-08-26 12:14:32,959 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-influxdb
+2025-08-26 12:14:32,959 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:33,014 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:33,014 - __main__ - INFO - Executing: docker network connect op-trading-network 'redis
+2025-08-26 12:14:33,072 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'redis
+2025-08-26 12:14:33,073 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:33,124 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:33,124 - __main__ - INFO - Executing: docker network connect op-trading-network 'code-grafana-1
+2025-08-26 12:14:33,184 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'code-grafana-1
+2025-08-26 12:14:33,184 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:33,239 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:33,240 - __main__ - INFO - Executing: docker network connect op-trading-network 'grafana
+2025-08-26 12:14:33,296 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'grafana
+2025-08-26 12:14:33,297 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:33,350 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:33,350 - __main__ - INFO - Executing: docker network connect op-trading-network 'influxdb2-local
+2025-08-26 12:14:33,411 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'influxdb2-local
+2025-08-26 12:14:33,411 - __main__ - INFO - Executing: docker network inspect op-trading-network
+2025-08-26 12:14:33,465 - __main__ - INFO - Command succeeded: docker network inspect op-trading-network
+2025-08-26 12:14:33,465 - __main__ - INFO - Executing: docker network connect op-trading-network 'influxdb-v3
+2025-08-26 12:14:33,522 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'influxdb-v3
+2025-08-26 12:17:52,881 - __main__ - INFO - Executing: docker compose version
+2025-08-26 12:17:53,011 - __main__ - INFO - Command succeeded: docker compose version
+2025-08-26 12:17:53,012 - __main__ - INFO - Executing: docker compose -f docker-compose-services.yml up -d influxdb redis
+2025-08-26 12:17:53,288 - __main__ - ERROR - Command failed: docker compose -f docker-compose-services.yml up -d influxdb redis
+2025-08-26 12:17:53,289 - __main__ - INFO - Executing: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:17:53,410 - __main__ - INFO - Command succeeded: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:17:53,411 - __main__ - INFO - Executing: docker network ls --format '{{.Name}},{{.Driver}}'
+2025-08-26 12:17:53,468 - __main__ - INFO - Command succeeded: docker network ls --format '{{.Name}},{{.Driver}}'
+2025-08-26 12:17:53,468 - __main__ - INFO - Executing: docker network create op-trading-network
+2025-08-26 12:17:53,523 - __main__ - ERROR - Command failed: docker network create op-trading-network
+2025-08-26 12:17:53,524 - __main__ - INFO - Executing: docker compose -f docker-compose-services.yml up -d influxdb redis
+2025-08-26 12:17:53,786 - __main__ - ERROR - Command failed: docker compose -f docker-compose-services.yml up -d influxdb redis
+2025-08-26 12:17:58,009 - __main__ - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-26 12:17:58,071 - __main__ - ERROR - Command failed: docker exec op-redis redis-cli ping
+2025-08-26 12:18:07,241 - __main__ - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-26 12:18:07,296 - __main__ - ERROR - Command failed: docker exec op-redis redis-cli ping

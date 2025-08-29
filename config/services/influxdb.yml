@@ -1,0 +1,31 @@
+# InfluxDB configuration for POA Trading Platform
+# Path: %POA_CONFIG%\services\influxdb.yml
+
+reporting-disabled: true
+
+meta:
+  dir: C:\influxdata\meta
+
+data:
+  dir: C:\influxdata\data
+  wal-dir: C:\influxdata\wal
+  index-version: tsi1
+  max-series-per-database: 10000000
+  max-values-per-tag: 100000
+
+coordinator:
+  write-timeout: 10s
+  max-concurrent-queries: 10
+
+http:
+  bind-address: ":8086"
+  log-enabled: true
+  pprof-enabled: false
+  unix-socket-enabled: false
+
+logging:
+  level: info
+  file: C:\influxdata\influxd.log
+
+retention:
+  check-interval: "30m"

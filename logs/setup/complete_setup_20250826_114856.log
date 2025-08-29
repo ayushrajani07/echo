@@ -1,0 +1,63 @@
+2025-08-26 11:48:56,195 - __main__ - INFO - Complete Initialization Script v3.2.0 initialized
+2025-08-26 11:48:56,195 - __main__ - INFO - Project root: C:\Users\ASUS\Documents\DATA\POA
+2025-08-26 11:48:56,195 - __main__ - INFO - Log file: logs\setup\complete_setup_20250826_114856.log
+2025-08-26 11:53:19,751 - __main__ - INFO - Executing: python -m pip install --upgrade pip
+2025-08-26 11:53:21,143 - __main__ - INFO - Command succeeded: python -m pip install --upgrade pip
+2025-08-26 11:53:21,144 - __main__ - INFO - Executing: python -m pip install fastapi==0.104.1
+2025-08-26 11:53:24,664 - __main__ - INFO - Command succeeded: python -m pip install fastapi==0.104.1
+2025-08-26 11:53:24,664 - __main__ - INFO - Executing: python -m pip install uvicorn[standard]==0.24.0
+2025-08-26 11:53:28,470 - __main__ - INFO - Command succeeded: python -m pip install uvicorn[standard]==0.24.0
+2025-08-26 11:53:28,471 - __main__ - INFO - Executing: python -m pip install pydantic==2.5.0
+2025-08-26 11:54:01,935 - __main__ - ERROR - Command failed: python -m pip install pydantic==2.5.0
+2025-08-26 11:54:01,936 - __main__ - INFO - Executing: python -m pip install pandas==2.1.4
+2025-08-26 11:54:21,531 - __main__ - ERROR - Command failed: python -m pip install pandas==2.1.4
+2025-08-26 11:54:21,531 - __main__ - INFO - Executing: python -m pip install numpy==1.24.3
+2025-08-26 11:54:30,721 - __main__ - ERROR - Command failed: python -m pip install numpy==1.24.3
+2025-08-26 11:54:30,722 - __main__ - INFO - Executing: python -m pip install redis==5.0.1
+2025-08-26 11:54:33,694 - __main__ - INFO - Command succeeded: python -m pip install redis==5.0.1
+2025-08-26 11:54:33,694 - __main__ - INFO - Executing: python -m pip install influxdb-client==1.39.0
+2025-08-26 11:54:41,532 - __main__ - INFO - Command succeeded: python -m pip install influxdb-client==1.39.0
+2025-08-26 11:54:41,533 - __main__ - INFO - Executing: python -m pip install python-dotenv==1.0.0
+2025-08-26 11:54:43,723 - __main__ - INFO - Command succeeded: python -m pip install python-dotenv==1.0.0
+2025-08-26 11:54:43,723 - __main__ - INFO - Executing: python -m pip install requests==2.31.0
+2025-08-26 11:54:46,028 - __main__ - INFO - Command succeeded: python -m pip install requests==2.31.0
+2025-08-26 11:54:46,028 - __main__ - INFO - Executing: python -m pip install aiohttp==3.9.1
+2025-08-26 11:54:53,001 - __main__ - ERROR - Command failed: python -m pip install aiohttp==3.9.1
+2025-08-26 11:54:53,002 - __main__ - INFO - Executing: python -m pip install prometheus-client==0.19.0
+2025-08-26 11:54:55,079 - __main__ - INFO - Command succeeded: python -m pip install prometheus-client==0.19.0
+2025-08-26 11:54:55,079 - __main__ - INFO - Executing: python -m pip install psutil==5.9.6
+2025-08-26 11:54:57,696 - __main__ - INFO - Command succeeded: python -m pip install psutil==5.9.6
+2025-08-26 11:54:57,696 - __main__ - INFO - Executing: python -m pip install pytz==2023.3
+2025-08-26 11:55:00,366 - __main__ - INFO - Command succeeded: python -m pip install pytz==2023.3
+2025-08-26 11:55:00,367 - __main__ - INFO - Executing: python -m pip install structlog==23.2.0
+2025-08-26 11:55:02,476 - __main__ - INFO - Command succeeded: python -m pip install structlog==23.2.0
+2025-08-26 11:55:02,476 - __main__ - INFO - Executing: python -m pip install loguru==0.7.2
+2025-08-26 11:55:04,833 - __main__ - INFO - Command succeeded: python -m pip install loguru==0.7.2
+2025-08-26 11:55:04,833 - __main__ - INFO - Executing: python -m pip install pydantic-settings==2.1.0
+2025-08-26 11:55:06,630 - __main__ - INFO - Command succeeded: python -m pip install pydantic-settings==2.1.0
+2025-08-26 11:55:06,631 - __main__ - INFO - Executing: python -m pip install httpx==0.25.2
+2025-08-26 11:55:09,324 - __main__ - INFO - Command succeeded: python -m pip install httpx==0.25.2
+2025-08-26 11:55:09,324 - __main__ - INFO - Executing: python -m pip install pytest==7.4.3
+2025-08-26 11:55:14,356 - __main__ - INFO - Command succeeded: python -m pip install pytest==7.4.3
+2025-08-26 11:55:14,356 - __main__ - INFO - Executing: python -m pip install pytest-asyncio==0.21.1
+2025-08-26 11:55:16,028 - __main__ - INFO - Command succeeded: python -m pip install pytest-asyncio==0.21.1
+2025-08-26 11:55:16,028 - __main__ - INFO - Executing: python -m pip install pytest-cov==4.1.0
+2025-08-26 11:55:19,535 - __main__ - INFO - Command succeeded: python -m pip install pytest-cov==4.1.0
+2025-08-26 11:55:19,536 - __main__ - INFO - Executing: python -m pip install black==23.11.0
+2025-08-26 11:55:22,738 - __main__ - INFO - Command succeeded: python -m pip install black==23.11.0
+2025-08-26 11:55:22,738 - __main__ - INFO - Executing: python -m pip install isort==5.12.0
+2025-08-26 11:55:25,208 - __main__ - INFO - Command succeeded: python -m pip install isort==5.12.0
+2025-08-26 11:55:25,208 - __main__ - INFO - Executing: python -m pip install flake8==6.1.0
+2025-08-26 11:55:28,887 - __main__ - INFO - Command succeeded: python -m pip install flake8==6.1.0
+2025-08-26 11:55:28,887 - __main__ - INFO - Executing: python -m pip install mypy==1.7.1
+2025-08-26 11:55:36,374 - __main__ - INFO - Command succeeded: python -m pip install mypy==1.7.1
+2025-08-26 11:55:36,374 - __main__ - INFO - Executing: python -m pip install rich==13.7.0
+2025-08-26 11:55:40,726 - __main__ - INFO - Command succeeded: python -m pip install rich==13.7.0
+2025-08-26 11:55:40,726 - __main__ - INFO - Executing: python -m pip install click==8.1.7
+2025-08-26 11:55:42,940 - __main__ - INFO - Command succeeded: python -m pip install click==8.1.7
+2025-08-26 11:55:42,941 - __main__ - INFO - Executing: python -m pip install pyyaml==6.0.1
+2025-08-26 11:55:53,563 - __main__ - INFO - Command succeeded: python -m pip install pyyaml==6.0.1
+2025-08-26 11:55:53,563 - __main__ - INFO - Executing: python -m pip install cryptography==41.0.8
+2025-08-26 11:55:55,074 - __main__ - ERROR - Command failed: python -m pip install cryptography==41.0.8
+2025-08-26 11:55:55,074 - __main__ - INFO - Executing: python -m pip install bcrypt==4.1.2
+2025-08-26 11:55:57,052 - __main__ - INFO - Command succeeded: python -m pip install bcrypt==4.1.2

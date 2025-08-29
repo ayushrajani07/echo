@@ -1,0 +1,7 @@
+2025-08-25 23:21:12,490 - __main__ - INFO - Fixed Functional Setup initialized
+2025-08-25 23:21:18,419 - __main__ - INFO - Executing: docker --version
+2025-08-25 23:21:18,538 - __main__ - INFO - Command succeeded: docker --version
+2025-08-25 23:21:25,647 - __main__ - INFO - Loaded existing .env with 193 variables
+2025-08-25 23:22:29,406 - __main__ - INFO - Executing: docker --version
+2025-08-25 23:22:29,522 - __main__ - INFO - Command succeeded: docker --version
+2025-08-25 23:22:32,053 - __main__ - INFO - Loaded existing .env with 193 variables

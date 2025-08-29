@@ -1,0 +1,10 @@
+2025-08-26 10:58:29,216 - __main__ - INFO - Fixed Functional Setup initialized
+2025-08-26 10:58:33,127 - __main__ - INFO - Executing: docker --version
+2025-08-26 10:58:33,180 - __main__ - INFO - Command succeeded: docker --version
+2025-08-26 10:58:35,087 - __main__ - INFO - Executing: pip install --upgrade pip
+2025-08-26 10:58:36,593 - __main__ - INFO - Command succeeded: pip install --upgrade pip
+2025-08-26 10:58:36,593 - __main__ - INFO - Executing: pip install -r requirements.txt
+2025-08-26 10:59:08,684 - __main__ - ERROR - Command failed: pip install -r requirements.txt
+2025-08-26 11:06:31,788 - __main__ - INFO - Loaded existing .env with 193 variables
+2025-08-26 11:06:43,146 - __main__ - INFO - Executing: docker-compose up -d influxdb redis
+2025-08-26 11:06:43,350 - __main__ - ERROR - Command failed: docker-compose up -d influxdb redis

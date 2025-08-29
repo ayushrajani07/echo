@@ -1,0 +1,176 @@
+2025-08-27 16:47:59,083 - INFO - Executing: pip install -r requirements.txt
+2025-08-27 16:48:32,017 - ERROR - Command failed: pip install -r requirements.txt
+2025-08-27 16:48:32,018 - ERROR - Error:   error: subprocess-exited-with-error
+  
+  pip subprocess to install build dependencies did not run successfully.
+  exit code: 1
+  
+  [57 lines of output]
+  Ignoring oldest-supported-numpy: markers 'python_version < "3.12"' don't match your environment
+  Collecting meson-python==0.13.1
+    Using cached meson_python-0.13.1-py3-none-any.whl.metadata (4.1 kB)
+  Collecting meson==1.2.1
+    Using cached meson-1.2.1-py3-none-any.whl.metadata (1.7 kB)
+  Collecting wheel
+    Using cached wheel-0.45.1-py3-none-any.whl.metadata (2.3 kB)
+  Collecting Cython<3,>=0.29.33
+    Using cached Cython-0.29.37-py2.py3-none-any.whl.metadata (3.1 kB)
+  Collecting numpy<2,>=1.26.0
+    Using cached numpy-1.26.4.tar.gz (15.8 MB)
+    Installing build dependencies: started
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Getting requirements to build wheel: finished with status 'done'
+    Installing backend dependencies: started
+    Installing backend dependencies: finished with status 'done'
+    Preparing metadata (pyproject.toml): started
+    Preparing metadata (pyproject.toml): finished with status 'error'
+    error: subprocess-exited-with-error
+  
+    Preparing metadata (pyproject.toml) did not run successfully.
+    exit code: 1
+  
+    [21 lines of output]
+    + C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77\vendored-meson\meson\meson.py setup C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77 C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77\.mesonpy-ybvrdem4 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77\.mesonpy-ybvrdem4\meson-python-native-file.ini
+    The Meson build system
+    Version: 1.2.99
+    Source dir: C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77
+    Build dir: C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77\.mesonpy-ybvrdem4
+    Build type: native build
+    Project name: NumPy
+    Project version: 1.26.4
+    WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+  
+    ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+    The following exception(s) were encountered:
+    Running `icl ""` gave "[WinError 2] The system cannot find the file specified"
+    Running `cl /?` gave "[WinError 2] The system cannot find the file specified"
+    Running `cc --version` gave "[WinError 2] The system cannot find the file specified"
+    Running `gcc --version` gave "[WinError 2] The system cannot find the file specified"
+    Running `clang --version` gave "[WinError 2] The system cannot find the file specified"
+    Running `clang-cl /?` gave "[WinError 2] The system cannot find the file specified"
+    Running `pgcc --version` gave "[WinError 2] The system cannot find the file specified"
+  
+    A full log can be found at C:\Users\ASUS\AppData\Local\Temp\pip-install-kqoo5qzj\numpy_e64ee66b499e4076b95160fb336a8e77\.mesonpy-ybvrdem4\meson-logs\meson-log.txt
+    [end of output]
+  
+    note: This error originates from a subprocess, and is likely not a problem with pip.
+  error: metadata-generation-failed
+  
+  Encountered error while generating package metadata.
+  
+  See above for output.
+  
+  note: This is an issue with the package mentioned above, not pip.
+  hint: See above for details.
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+pip subprocess to install build dependencies did not run successfully.
+exit code: 1
+
+See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+2025-08-27 16:48:32,019 - INFO - Executing: pip install -r requirements-minimal.txt
+2025-08-27 16:48:50,636 - ERROR - Command failed: pip install -r requirements-minimal.txt
+2025-08-27 16:48:50,636 - ERROR - Error:   error: subprocess-exited-with-error
+  
+  pip subprocess to install build dependencies did not run successfully.
+  exit code: 1
+  
+  [57 lines of output]
+  Ignoring oldest-supported-numpy: markers 'python_version < "3.12"' don't match your environment
+  Collecting meson-python==0.13.1
+    Using cached meson_python-0.13.1-py3-none-any.whl.metadata (4.1 kB)
+  Collecting meson==1.2.1
+    Using cached meson-1.2.1-py3-none-any.whl.metadata (1.7 kB)
+  Collecting wheel
+    Using cached wheel-0.45.1-py3-none-any.whl.metadata (2.3 kB)
+  Collecting Cython<3,>=0.29.33
+    Using cached Cython-0.29.37-py2.py3-none-any.whl.metadata (3.1 kB)
+  Collecting numpy<2,>=1.26.0
+    Using cached numpy-1.26.4.tar.gz (15.8 MB)
+    Installing build dependencies: started
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Getting requirements to build wheel: finished with status 'done'
+    Installing backend dependencies: started
+    Installing backend dependencies: finished with status 'done'
+    Preparing metadata (pyproject.toml): started
+    Preparing metadata (pyproject.toml): finished with status 'error'
+    error: subprocess-exited-with-error
+  
+    Preparing metadata (pyproject.toml) did not run successfully.
+    exit code: 1
+  
+    [21 lines of output]
+    + C:\Users\ASUS\AppData\Local\Programs\Python\Python313\python.exe C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b\vendored-meson\meson\meson.py setup C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b\.mesonpy-imz1emuc -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b\.mesonpy-imz1emuc\meson-python-native-file.ini
+    The Meson build system
+    Version: 1.2.99
+    Source dir: C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b
+    Build dir: C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b\.mesonpy-imz1emuc
+    Build type: native build
+    Project name: NumPy
+    Project version: 1.26.4
+    WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+  
+    ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+    The following exception(s) were encountered:
+    Running `icl ""` gave "[WinError 2] The system cannot find the file specified"
+    Running `cl /?` gave "[WinError 2] The system cannot find the file specified"
+    Running `cc --version` gave "[WinError 2] The system cannot find the file specified"
+    Running `gcc --version` gave "[WinError 2] The system cannot find the file specified"
+    Running `clang --version` gave "[WinError 2] The system cannot find the file specified"
+    Running `clang-cl /?` gave "[WinError 2] The system cannot find the file specified"
+    Running `pgcc --version` gave "[WinError 2] The system cannot find the file specified"
+  
+    A full log can be found at C:\Users\ASUS\AppData\Local\Temp\pip-install-acjj88p0\numpy_b5a48e5d880d4f6d88a960237673876b\.mesonpy-imz1emuc\meson-logs\meson-log.txt
+    [end of output]
+  
+    note: This error originates from a subprocess, and is likely not a problem with pip.
+  error: metadata-generation-failed
+  
+  Encountered error while generating package metadata.
+  
+  See above for output.
+  
+  note: This is an issue with the package mentioned above, not pip.
+  hint: See above for details.
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+pip subprocess to install build dependencies did not run successfully.
+exit code: 1
+
+See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+2025-08-27 16:48:50,636 - INFO - Executing: pip install fastapi
+2025-08-27 16:48:51,772 - INFO - Command succeeded: pip install fastapi
+2025-08-27 16:48:51,772 - INFO - Executing: pip install uvicorn[standard]
+2025-08-27 16:48:52,889 - INFO - Command succeeded: pip install uvicorn[standard]
+2025-08-27 16:48:52,890 - INFO - Executing: pip install redis
+2025-08-27 16:48:54,060 - INFO - Command succeeded: pip install redis
+2025-08-27 16:48:54,060 - INFO - Executing: pip install influxdb-client
+2025-08-27 16:48:55,171 - INFO - Command succeeded: pip install influxdb-client
+2025-08-27 16:48:55,171 - INFO - Executing: pip install prometheus-client
+2025-08-27 16:48:56,281 - INFO - Command succeeded: pip install prometheus-client
+2025-08-27 16:48:56,282 - INFO - Executing: pip install python-dotenv
+2025-08-27 16:48:57,389 - INFO - Command succeeded: pip install python-dotenv
+2025-08-27 16:48:57,389 - INFO - Executing: pip install psutil
+2025-08-27 16:48:58,488 - INFO - Command succeeded: pip install psutil
+2025-08-27 16:48:58,489 - INFO - Executing: pip install numpy
+2025-08-27 16:48:59,593 - INFO - Command succeeded: pip install numpy
+2025-08-27 16:48:59,594 - INFO - Executing: docker --version
+2025-08-27 16:48:59,636 - INFO - Command succeeded: docker --version
+2025-08-27 16:48:59,785 - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-27 16:48:59,838 - ERROR - Command failed: docker exec op-redis redis-cli ping
+2025-08-27 16:48:59,838 - ERROR - Error: Error response from daemon: container 22892d9bb11f0e5bd76bcf0045b31886bde9cd566ad9784e8e408c7446ba85e1 is not running
+

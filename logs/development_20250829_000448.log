@@ -1,0 +1,16 @@
+2025-08-29 00:04:48,818 - root - INFO - Logging initialized for development
+2025-08-29 00:04:48,818 - root - INFO - Log file: C:\Users\ASUS\Documents\POA\logs\development_20250829_000448.log
+2025-08-29 00:04:48,820 - root - INFO - Starting POA Development Mode
+2025-08-29 00:04:48,820 - root - INFO - Starting native Windows services...
+2025-08-29 00:04:48,820 - root - INFO - Starting Redis service...
+2025-08-29 00:04:48,893 - root - ERROR - Redis failed to start: 
+2025-08-29 00:04:48,893 - root - INFO - Starting influxdb service...
+2025-08-29 00:04:48,928 - root - INFO - influxdb started successfully
+2025-08-29 00:04:48,938 - root - INFO - Starting grafana service...
+2025-08-29 00:04:48,977 - root - INFO - grafana started successfully
+2025-08-29 00:04:48,978 - root - INFO - Attempting Redis WSL fallback...
+2025-08-29 00:04:55,033 - root - INFO - Redis WSL startup completed
+2025-08-29 00:04:55,052 - root - INFO - Redis connection established
+2025-08-29 00:04:55,157 - root - INFO - Service status: {'Redis': 'stopped', 'influxdb': 'running', 'grafana': 'running'}
+2025-08-29 00:04:55,940 - watchfiles.main - DEBUG - 5 changes detected: {(<Change.added: 1>, 'C:\\Users\\ASUS\\Documents\\POA\\src\\__pycache__\\main_native.cpython-313.pyc.2817290382320'), (<Change.added: 1>, 'C:\\Users\\ASUS\\Documents\\POA\\src\\__pycache__\\main_native.cpython-313.pyc'), (<Change.deleted: 3>, 'C:\\Users\\ASUS\\Documents\\POA\\src\\__pycache__\\main_native.cpython-313.pyc.2817290382320'), (<Change.modified: 2>, 'C:\\Users\\ASUS\\Documents\\POA\\src'), (<Change.added: 1>, 'C:\\Users\\ASUS\\Documents\\POA\\src\\__pycache__')}
+2025-08-29 00:04:56,294 - watchfiles.main - DEBUG - 2 changes detected: {(<Change.modified: 2>, 'C:\\Users\\ASUS\\Documents\\POA\\logs'), (<Change.modified: 2>, 'C:\\Users\\ASUS\\Documents\\POA\\logs\\development_20250829_000448.log')}

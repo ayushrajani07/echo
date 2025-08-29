@@ -1,0 +1,12 @@
+2025-08-25 23:42:16,926 - __main__ - INFO - Fixed Functional Setup initialized
+2025-08-25 23:42:21,714 - __main__ - INFO - Executing: docker --version
+2025-08-25 23:42:21,840 - __main__ - INFO - Command succeeded: docker --version
+2025-08-25 23:42:21,842 - __main__ - INFO - Executing: pip install --upgrade pip
+2025-08-25 23:42:24,450 - __main__ - INFO - Command succeeded: pip install --upgrade pip
+2025-08-25 23:42:24,450 - __main__ - INFO - Executing: pip install -r requirements.txt
+2025-08-25 23:43:19,799 - __main__ - ERROR - Command failed: pip install -r requirements.txt
+2025-08-25 23:44:08,447 - __main__ - INFO - Loaded existing .env with 193 variables
+2025-08-25 23:44:12,530 - __main__ - INFO - Executing: docker-compose up -d influxdb redis
+2025-08-25 23:44:12,957 - __main__ - ERROR - Command failed: docker-compose up -d influxdb redis
+2025-08-25 23:44:19,505 - __main__ - INFO - Executing: docker-compose up -d prometheus grafana
+2025-08-25 23:44:19,880 - __main__ - ERROR - Command failed: docker-compose up -d prometheus grafana

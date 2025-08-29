@@ -1,0 +1,34 @@
+2025-08-25 20:11:14,263 - __main__ - INFO - Functional Trading Platform Setup initialized
+2025-08-25 20:11:24,972 - __main__ - INFO - Executing: docker --version
+2025-08-25 20:11:25,022 - __main__ - INFO - Command succeeded: docker --version
+2025-08-25 20:11:25,023 - __main__ - INFO - Executing: docker-compose --version
+2025-08-25 20:11:25,084 - __main__ - INFO - Command succeeded: docker-compose --version
+2025-08-25 20:11:48,195 - __main__ - INFO - Created directory: data/raw_snapshots/overview
+2025-08-25 20:11:48,195 - __main__ - INFO - Created directory: data/raw_snapshots/options
+2025-08-25 20:11:48,196 - __main__ - INFO - Created directory: data/participant_flows
+2025-08-25 20:11:48,197 - __main__ - INFO - Created directory: data/cash_flows
+2025-08-25 20:11:48,197 - __main__ - INFO - Created directory: data/position_changes
+2025-08-25 20:11:48,198 - __main__ - INFO - Created directory: data/premarket
+2025-08-25 20:11:48,198 - __main__ - INFO - Created directory: logs/setup
+2025-08-25 20:11:48,198 - __main__ - INFO - Created directory: logs/application
+2025-08-25 20:11:48,198 - __main__ - INFO - Created directory: logs/participant_analysis
+2025-08-25 20:11:48,199 - __main__ - INFO - Created directory: logs/cash_flows
+2025-08-25 20:11:48,199 - __main__ - INFO - Created directory: logs/errors
+2025-08-25 20:11:48,199 - __main__ - INFO - Created directory: logs/performance
+2025-08-25 20:11:48,200 - __main__ - INFO - Created directory: config/environments
+2025-08-25 20:11:48,200 - __main__ - INFO - Created directory: config/prometheus
+2025-08-25 20:11:48,200 - __main__ - INFO - Created directory: config/grafana/dashboards
+2025-08-25 20:11:48,201 - __main__ - INFO - Created directory: config/grafana/datasources
+2025-08-25 20:11:48,201 - __main__ - INFO - Created directory: config/nginx
+2025-08-25 20:11:48,201 - __main__ - INFO - Created directory: services/collection
+2025-08-25 20:11:48,202 - __main__ - INFO - Created directory: services/processing
+2025-08-25 20:11:48,202 - __main__ - INFO - Created directory: services/analytics
+2025-08-25 20:11:48,202 - __main__ - INFO - Created directory: services/monitoring
+2025-08-25 20:11:48,203 - __main__ - INFO - Created directory: tests/unit
+2025-08-25 20:11:48,203 - __main__ - INFO - Created directory: tests/integration
+2025-08-25 20:11:48,203 - __main__ - INFO - Created directory: tests/participant_analysis
+2025-08-25 20:11:48,203 - __main__ - INFO - Created directory: tests/performance
+2025-08-25 20:11:48,204 - __main__ - INFO - Created file: .gitignore
+2025-08-25 20:11:48,204 - __main__ - INFO - Created file: config/prometheus/prometheus.yml
+2025-08-25 20:11:48,205 - __main__ - INFO - Created file: config/grafana/datasources/influxdb.yml
+2025-08-25 20:12:24,240 - __main__ - INFO - Environment configuration completed

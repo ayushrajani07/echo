@@ -1,0 +1,9 @@
+2025-08-26 12:25:04,205 - __main__ - INFO - Complete Initialization Script v3.2.0 initialized
+2025-08-26 12:25:04,205 - __main__ - INFO - Project root: C:\Users\ASUS\Documents\DATA\POA
+2025-08-26 12:25:04,205 - __main__ - INFO - Log file: logs\setup\complete_setup_20250826_122504.log
+2025-08-26 12:25:47,478 - __main__ - INFO - Executing: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:25:47,600 - __main__ - INFO - Command succeeded: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 12:25:47,601 - __main__ - INFO - Executing: docker network ls --format '{{.Name}},{{.Driver}}'
+2025-08-26 12:25:47,664 - __main__ - INFO - Command succeeded: docker network ls --format '{{.Name}},{{.Driver}}'
+2025-08-26 12:25:47,664 - __main__ - INFO - Executing: docker network create op-trading-network
+2025-08-26 12:25:47,729 - __main__ - ERROR - Command failed: docker network create op-trading-network

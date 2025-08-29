@@ -1,0 +1,29 @@
+# Grafana datasource provisioning for POA Trading Platform
+# Path: %POA_CONFIG%\grafana\datasources\poa-datasource.yml
+
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    url: http://localhost:8086
+    database: poa-trading
+    user: ""
+    secureJsonData:
+      token: ${INFLUXDB_TOKEN}
+    jsonData:
+      version: Flux
+      organization: poa-trading
+      defaultBucket: options-data
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://localhost:9090
+  - name: Redis
+    type: redis
+    access: proxy
+    url: redis://localhost:6379
+    jsonData:
+      tlsAuth: false
+      tlsAuthWithCACert: false

@@ -1,0 +1,12 @@
+2025-08-27 16:49:11,259 - __main__ - INFO - Using standard asyncio event loop (Windows/Python 3.13 compatibility)
+2025-08-27 16:49:11,381 - main - INFO - Starting OP Trading Platform v3.0.0 in development mode
+2025-08-27 16:49:11,382 - main - INFO - Platform: Windows 11
+2025-08-27 16:49:11,382 - main - INFO - Python: 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+2025-08-27 16:49:11,382 - main - INFO - Windows Compatibility Mode: True
+2025-08-27 16:49:11,395 - main - INFO - InfluxDB client initialized successfully
+2025-08-27 16:49:11,402 - main - INFO - Redis client initialized successfully
+2025-08-27 16:49:12,939 - main - WARNING - Could not initialize collectors: EnhancedOverviewCollector.__init__() got an unexpected keyword argument 'supported_indices'
+2025-08-27 16:49:12,940 - main - INFO - System monitoring started
+2025-08-27 16:49:12,940 - main - INFO - Application startup completed successfully
+2025-08-27 16:51:30,509 - main - INFO - Shutting down OP Trading Platform
+2025-08-27 16:51:30,510 - main - INFO - Application shutdown completed

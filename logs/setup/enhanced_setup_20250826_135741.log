@@ -1,0 +1,42 @@
+2025-08-26 13:57:41,919 - __main__ - INFO - Enhanced Initialization Script v3.3.0 initialized
+2025-08-26 13:57:41,920 - __main__ - INFO - Project root: C:\Users\ASUS\Documents\DATA\POA
+2025-08-26 13:57:41,921 - __main__ - INFO - Log file: logs\setup\enhanced_setup_20250826_135741.log
+2025-08-26 13:58:18,846 - __main__ - INFO - Executing: docker --version
+2025-08-26 13:58:18,898 - __main__ - INFO - Command succeeded: docker --version
+2025-08-26 13:58:18,898 - __main__ - INFO - Executing: docker compose version
+2025-08-26 13:58:19,032 - __main__ - INFO - Command succeeded: docker compose version
+2025-08-26 13:58:19,033 - __main__ - INFO - Executing: docker-compose --version
+2025-08-26 13:58:19,096 - __main__ - INFO - Command succeeded: docker-compose --version
+2025-08-26 14:00:14,278 - __main__ - INFO - Executing: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 14:00:14,391 - __main__ - INFO - Command succeeded: docker ps -a --format '{{.Names}},{{.Image}},{{.Status}}'
+2025-08-26 14:00:14,394 - __main__ - INFO - Executing: docker network ls --format '{{.Name}}'
+2025-08-26 14:00:14,451 - __main__ - INFO - Command succeeded: docker network ls --format '{{.Name}}'
+2025-08-26 14:00:14,453 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-prometheus-recovery
+2025-08-26 14:00:14,509 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-prometheus-recovery
+2025-08-26 14:00:14,510 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-redis-recovery
+2025-08-26 14:00:14,565 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-redis-recovery
+2025-08-26 14:00:14,567 - __main__ - INFO - Executing: docker network connect op-trading-network 'my-redis
+2025-08-26 14:00:14,627 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'my-redis
+2025-08-26 14:00:14,628 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-grafana
+2025-08-26 14:00:14,686 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-grafana
+2025-08-26 14:00:14,688 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-prometheus
+2025-08-26 14:00:14,746 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-prometheus
+2025-08-26 14:00:14,748 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-redis
+2025-08-26 14:00:14,805 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-redis
+2025-08-26 14:00:14,806 - __main__ - INFO - Executing: docker network connect op-trading-network 'op-influxdb
+2025-08-26 14:00:14,863 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'op-influxdb
+2025-08-26 14:00:14,864 - __main__ - INFO - Executing: docker network connect op-trading-network 'redis
+2025-08-26 14:00:14,923 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'redis
+2025-08-26 14:00:14,924 - __main__ - INFO - Executing: docker network connect op-trading-network 'code-grafana-1
+2025-08-26 14:00:14,980 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'code-grafana-1
+2025-08-26 14:00:14,982 - __main__ - INFO - Executing: docker network connect op-trading-network 'grafana
+2025-08-26 14:00:15,038 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'grafana
+2025-08-26 14:00:15,039 - __main__ - INFO - Executing: docker network connect op-trading-network 'influxdb2-local
+2025-08-26 14:00:15,094 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'influxdb2-local
+2025-08-26 14:00:15,096 - __main__ - INFO - Executing: docker network connect op-trading-network 'influxdb-v3
+2025-08-26 14:00:15,153 - __main__ - ERROR - Command failed: docker network connect op-trading-network 'influxdb-v3
+2025-08-26 14:00:15,775 - __main__ - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-26 14:00:15,835 - __main__ - ERROR - Command failed: docker exec op-redis redis-cli ping
+2025-08-26 14:25:06,544 - watchfiles.main - INFO - 1 change detected
+2025-08-26 14:27:28,333 - __main__ - INFO - Executing: docker exec op-redis redis-cli ping
+2025-08-26 14:27:28,392 - __main__ - ERROR - Command failed: docker exec op-redis redis-cli ping
