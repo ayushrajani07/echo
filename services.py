@@ -3,9 +3,7 @@ import subprocess
 import redis
 import requests
 import time
-import sys
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
 # -------------------------
@@ -131,13 +129,6 @@ def stop_grafana_service():
 # -------------------------
 # Combined Utility Functions
 # -------------------------
-def start_all_services():
-    logger.info("🚀 Starting all services...")
-    start_redis_service()
-    start_influxdb_service()
-    start_grafana_service()
-    logger.info("✅ All services started.")
-
 def stop_all_services():
     logger.info("🛑 Stopping all services...")
     stop_grafana_service()
@@ -150,48 +141,3 @@ def status_report():
     logger.info(f"Redis:    {'🟢 Running' if redis_running() else '🔴 Stopped'}")
     logger.info(f"InfluxDB: {'🟢 Running' if influxdb_running() else '🔴 Stopped'}")
     logger.info(f"Grafana:  {'🟢 Running' if grafana_running() else '🔴 Stopped'}")
-
-# -------------------------
-# Interactive Menu
-# -------------------------
-def menu():
-    while True:
-        print("\n=== POA Service Manager ===")
-        print("1. Start all services")
-        print("2. Stop all services")
-        print("3. Show service status")
-        print("4. Start Redis only")
-        print("5. Stop Redis only")
-        print("6. Start InfluxDB only")
-        print("7. Stop InfluxDB only")
-        print("8. Start Grafana only")
-        print("9. Stop Grafana only")
-        print("0. Exit")
-        choice = input("Select an option: ").strip()
-
-        if choice == "1":
-            start_all_services()
-        elif choice == "2":
-            stop_all_services()
-        elif choice == "3":
-            status_report()
-        elif choice == "4":
-            start_redis_service()
-        elif choice == "5":
-            stop_redis_service()
-        elif choice == "6":
-            start_influxdb_service()
-        elif choice == "7":
-            stop_influxdb_service()
-        elif choice == "8":
-            start_grafana_service()
-        elif choice == "9":
-            stop_grafana_service()
-        elif choice == "0":
-            print("Exiting...")
-            sys.exit(0)
-        else:
-            print("Invalid choice. Please try again.")
-
-if __name__ == "__main__":
-    menu()
